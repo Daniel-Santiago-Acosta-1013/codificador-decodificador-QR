@@ -22,7 +22,7 @@ $ pip install -r requirements.txt
 Para codificar un texto en un código QR, ejecuta el archivo `encoder.py` desde la línea de comandos proporcionando los argumentos necesarios:
 
 ```bash
-python script.py <format> <data> [file_name]
+python encoder.py <format> <data> [file_name]
 ```
 
 * `<format>`: El formato del contenido a codificar. Puede ser `texto`, `imagen`, `video` o `audio`.

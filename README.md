@@ -25,11 +25,11 @@ Para codificar un texto en un código QR, ejecuta el archivo `encoder.py` desde 
 python script.py <format> <data> [file_name]
 ```
 
-* <format>: El formato del contenido a codificar. Puede ser texto, imagen, video o audio.
-* <data>: El contenido a codificar o la URL del archivo multimedia.
-* [file_name]: (Opcional) El nombre del archivo donde se guardará el código QR. Por defecto, se guardará como qr_code.png.
+* `<format>`: El formato del contenido a codificar. Puede ser `texto`, `imagen`, `video` o `audio`.
+* `<data>`: El contenido a codificar o la URL del archivo multimedia.
+* `[file_name]`: (Opcional) El nombre del archivo donde se guardará el código QR. Por defecto, se guardará como `qr_code.png`.
 
-# Ejemplo
+## Ejemplo
 
 Para generar un código QR con una URL de imagen:
 

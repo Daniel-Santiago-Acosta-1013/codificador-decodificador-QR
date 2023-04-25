@@ -19,13 +19,23 @@ $ pip install -r requirements.txt
 
 ## Uso
 
-Para codificar un texto en un código QR, ejecuta el archivo `encoder.py` y sigue las instrucciones en la terminal:
+Para codificar un texto en un código QR, ejecuta el archivo `encoder.py` desde la línea de comandos proporcionando los argumentos necesarios:
 
 ```bash
-$ python encoder.py
+python script.py <format> <data> [file_name]
 ```
 
-El programa te pedirá que ingreses el texto que deseas codificar y generará un archivo de imagen con el código QR.
+* <format>: El formato del contenido a codificar. Puede ser texto, imagen, video o audio.
+* <data>: El contenido a codificar o la URL del archivo multimedia.
+* [file_name]: (Opcional) El nombre del archivo donde se guardará el código QR. Por defecto, se guardará como qr_code.png.
+
+# Ejemplo
+
+Para generar un código QR con una URL de imagen:
+
+```bash
+python script.py imagen https://example.com/image.jpg qr_code.png
+```
 
 Para decodificar un código QR desde un archivo de imagen, ejecuta el archivo `decoder.py` y sigue las instrucciones en la terminal:
 
